@@ -9,7 +9,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: #212121;
+    background:white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,9 +26,12 @@
 
 .cover-pic {
     display: block;
-    height:400px;
+    height:250px;
     width: 100%;
     text-align: center;
+    background-size: cover;
+    background-position: center
+    ;
 
 
 }
